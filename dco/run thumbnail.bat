@@ -1,0 +1,1 @@
+python thumbnail.py
