@@ -1,0 +1,212 @@
+@media (prefers-color-scheme: dark) {
+  /* Dark theme styles go here */
+
+  body {
+    background-color: rgb(49, 49, 49);
+    color: rgb(236, 236, 236);
+  }
+  a {
+    color: rgb(214, 214, 214);
+  }
+
+h1 {
+  font-size: 4rem;
+}
+
+  article {
+    /*width: 30%;*/
+    max-width: 50;
+    margin-left: 50px;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    
+  }
+
+  .full-img {
+    background-image: url("'images/background.jpg'");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #outline {
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+  }
+
+  #outline-link {
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+  }
+  
+  
+  table#unitable {
+    table-layout: fixed ;
+    width: 100% ;
+    border-collapse: collapse ;
+    border: 1px black solid ;
+  }
+  table#unitable td {
+    width: 20% ;
+    border: 1px black solid ;
+    padding: 10px ;
+    text-align: center;
+  }
+
+  .drone-dialogue
+  {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(36, 36, 36);
+    color: white;
+  }
+
+  .story-class
+  {
+    line-height: 200%;
+    text-indent: 4%;
+  }
+
+  br {
+    text-indent: 4%;
+  }
+
+  .btn-green
+  {
+    background-color: #28a745; /* Green color code */
+    color: #fff; /* Text color */
+  }
+
+  .right-margin,
+  .left-margin
+  {
+    
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+  .button-container
+  {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+  }
+
+  .code-block
+  {
+    background-color: #414141;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+  }
+  .code-lettering
+  {
+    color:rgb(202, 202, 202)
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  /* Light theme styles go here */
+
+body {
+    background-color: rgb(247, 247, 247);
+  }
+  a {
+    color: rgb(0, 0, 0);
+  }
+
+h1 {
+  font-size: 4rem;
+}
+
+  article {
+    /*width: 30%;*/
+    max-width: 50;
+    margin-left: 50px;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    
+  }
+
+  .full-img {
+    background-image: url("'images/background.jpg'");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #outline {
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+  }
+
+  #outline-link {
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+  }
+  
+  
+  table#unitable {
+    table-layout: fixed ;
+    width: 100% ;
+    border-collapse: collapse ;
+    border: 1px black solid ;
+  }
+  table#unitable td {
+    width: 20% ;
+    border: 1px black solid ;
+    padding: 10px ;
+    text-align: center;
+  }
+
+  .drone-dialogue
+  {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(148, 148, 148);
+    color: white;
+  }
+
+  .story-class
+  {
+    line-height: 200%;
+    text-indent: 4%;
+  }
+
+  br {
+    text-indent: 4%;
+  }
+
+  .btn-green
+  {
+    background-color: #28a745; /* Green color code */
+    color: #fff; /* Text color */
+  }
+
+  .right-margin,
+  .left-margin
+  {
+    background-image: url('/images/charimage1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+  .button-container
+  {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+  }
+  
+  .code-block
+  {
+    background-color: #414141;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+  }
+  .code-lettering
+  {
+    color:rgb(202, 202, 202)
+  }
+}
