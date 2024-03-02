@@ -113,11 +113,55 @@
           }
 
           </style>
+
+
+    <!-- JavaScript code for setting the cookie -->
+    <SCRIPT language="JavaScript">
+      //if (window.innerWidth > 768)
+      //{
+        // Execute code specific to desktop
+        // Checking the cookie
+        if (document.cookie.includes("passPassed=true"))
+        {
+          console.log("Script was not triggered")
+        }
+        else
+        {
+          // The script was triggered
+          console.log("Script was previously triggered");
+          var password; 
+          var pass1="1463"; 
+          
+          //Enter password and ignore whitespace
+          password = prompt('Enter Password',''); 
+          password = password.replace(/\s/g, '');
+
+          if (password!==pass1) 
+          { 
+            console.log("Incorrect password")
+            window.location="https://zanteri.com/"; 
+            
+          } 
+          else
+          {
+            console.log("Correct password")
+            document.cookie = "passPassed=true; expires=Thu, 15 Jul 2024 00:00:00 UTC; path=/; sameSite=Lax";
+            
+          }
+        }
+
+    </SCRIPT>
+
+
   
   </head>
   
   <body class="mt-0">
   
+    <noscript>
+      <meta http-equiv="refresh" content="0;url=index.html">
+    </noscript>
+
     <header class="header">
       <div class="container">
         <h2 class="header-title">Zanteri</h2>

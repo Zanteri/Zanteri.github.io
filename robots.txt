@@ -1,6 +1,5 @@
-User-agent: GPTBot
+User-agent: *
 Disallow: /
-User-agent: ChatGPT-User
-Disallow: /
+
 
 Sitemap: /sitemap.xml
